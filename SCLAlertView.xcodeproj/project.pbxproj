@@ -7,6 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2290BAE61E9A52340038C87B /* UIImage+ImageEffects.h in Headers */ = {isa = PBXBuildFile; fileRef = DD2E172819FA84B800CBAEC3 /* UIImage+ImageEffects.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2290BAE71E9A52340038C87B /* SCLAlertView.h in Headers */ = {isa = PBXBuildFile; fileRef = DDB15FD819D5B98800173158 /* SCLAlertView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2290BAE81E9A52340038C87B /* SCLButton.h in Headers */ = {isa = PBXBuildFile; fileRef = DDB15FD919D5BAA000173158 /* SCLButton.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2290BAE91E9A52340038C87B /* SCLAlertViewResponder.h in Headers */ = {isa = PBXBuildFile; fileRef = DDB15FDC19D5BCF400173158 /* SCLAlertViewResponder.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2290BAEA1E9A52340038C87B /* SCLAlertViewStyleKit.h in Headers */ = {isa = PBXBuildFile; fileRef = DDB15FDF19D5D85B00173158 /* SCLAlertViewStyleKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2290BAEB1E9A52340038C87B /* SCLMacros.h in Headers */ = {isa = PBXBuildFile; fileRef = DD2F03171AAFA4E0007BC507 /* SCLMacros.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2290BAEC1E9A52340038C87B /* SCLTimerDisplay.h in Headers */ = {isa = PBXBuildFile; fileRef = 572BB1451B8383B3002DEE38 /* SCLTimerDisplay.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2290BAED1E9A52340038C87B /* SCLTextView.h in Headers */ = {isa = PBXBuildFile; fileRef = DD24453A1BAC383600892117 /* SCLTextView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2290BAEE1E9A52340038C87B /* SCLSwitchView.h in Headers */ = {isa = PBXBuildFile; fileRef = CF6FB1221C5926FC009715F3 /* SCLSwitchView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		572BB1471B8383B3002DEE38 /* SCLTimerDisplay.m in Sources */ = {isa = PBXBuildFile; fileRef = 572BB1461B8383B3002DEE38 /* SCLTimerDisplay.m */; };
 		CF6FB1241C5926FC009715F3 /* SCLSwitchView.m in Sources */ = {isa = PBXBuildFile; fileRef = CF6FB1231C5926FC009715F3 /* SCLSwitchView.m */; };
 		DD06C22D1C64EAE500E6F6B0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD06C22C1C64EAE500E6F6B0 /* UIKit.framework */; };
@@ -259,6 +268,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				DD4B77E41D8C580B00CF97C7 /* SCLAlertViewFramework.h in Headers */,
+				2290BAE61E9A52340038C87B /* UIImage+ImageEffects.h in Headers */,
+				2290BAE71E9A52340038C87B /* SCLAlertView.h in Headers */,
+				2290BAE81E9A52340038C87B /* SCLButton.h in Headers */,
+				2290BAE91E9A52340038C87B /* SCLAlertViewResponder.h in Headers */,
+				2290BAEA1E9A52340038C87B /* SCLAlertViewStyleKit.h in Headers */,
+				2290BAEB1E9A52340038C87B /* SCLMacros.h in Headers */,
+				2290BAEC1E9A52340038C87B /* SCLTimerDisplay.h in Headers */,
+				2290BAED1E9A52340038C87B /* SCLTextView.h in Headers */,
+				2290BAEE1E9A52340038C87B /* SCLSwitchView.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -324,7 +342,7 @@
 		DDB15F9519D5B7C600173158 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0800;
+				LastUpgradeCheck = 0830;
 				ORGANIZATIONNAME = "AnyKey Entertainment";
 				TargetAttributes = {
 					DDB15F9C19D5B7C600173158 = {
@@ -489,7 +507,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -528,7 +546,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -542,7 +560,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = "$(SRCROOT)/SCLAlertViewExample/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "br.com.anykey.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -555,7 +573,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = "$(SRCROOT)/SCLAlertViewExample/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "br.com.anykey.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -617,6 +635,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = br.com.anykey.SCLAlertViewFramework;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
+				USE_HEADERMAP = NO;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
@@ -642,6 +661,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = br.com.anykey.SCLAlertViewFramework;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
+				USE_HEADERMAP = NO;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};

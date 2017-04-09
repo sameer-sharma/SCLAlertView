@@ -174,9 +174,9 @@ SCLTimerDisplay *buttonTimer;
     self.tintTopCircle = YES;
     
     // Font
-    _titleFontFamily = @"HelveticaNeue";
-    _bodyTextFontFamily = @"HelveticaNeue";
-    _buttonsFontFamily = @"HelveticaNeue-Bold";
+    _titleFontFamily = @"Avenir";
+    _bodyTextFontFamily = @"Avenir-Medium";
+    _buttonsFontFamily = @"Avenir-Next";
     _titleFontSize = 20.0f;
     _bodyFontSize = 14.0f;
     _buttonsFontSize = 14.0f;
@@ -880,7 +880,7 @@ SCLTimerDisplay *buttonTimer;
             break;
             
         case SCLAlertViewStyleWaiting:
-            viewColor = UIColorFromHEX(0x6c125d);
+            viewColor = UIColorFromHEX(0x22B573);//UIColorFromHEX(0x6c125d);
             break;
             
         case SCLAlertViewStyleQuestion:
